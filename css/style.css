@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.item {
+  background: #ddd;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.comprar {
+  background-color: #2be;
+  color: #103;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
